@@ -1,0 +1,46 @@
+.slider-container{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toggler{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+}
+
+.dark {
+    color: white;
+    background-color: black;
+}
+
+.toggler--slider{
+    height: 18px;
+    width: 50px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    cursor: pointer;
+}
+
+.toggler--slider--circle{
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: white;
+    margin-inline: 4px;
+}
+
+.dark .toggler--slider--circle{
+    background-color: black;
+}
+
+.dark .toggler--slider{
+    background-color: white;
+    justify-content: end; 
+}
